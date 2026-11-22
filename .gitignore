@@ -1,0 +1,10 @@
+dist/
+*.exe
+*.dll
+*.so
+*.wasm
+*.lib
+*.o
+*.obj
+node_modules/
+.DS_Store

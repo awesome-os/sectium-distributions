@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "planeVersion": "0.2.0",
+  "releaseChannel": "rolling",
+  "channels": [
+    "rolling",
+    "stable"
+  ],
+  "abiMagic": "0x33564742",
+  "abiVersion": 3,
+  "manifestUrl": "https://awesome-os.com/release-manifest.json",
+  "installers": {
+    "powershell": "https://awesome-os.com/install.ps1",
+    "posix": "https://awesome-os.com/install.sh"
+  },
+  "repos": {
+    "sectium-es": "awesome-os/sectium-es",
+    "sectium-jvm": "awesome-os/sectium-jvm",
+    "awesome-os": "awesome-os/awesome-os"
+  },
+  "artifacts": [
+    {
+      "id": "sectium-es-win64",
+      "component": "sectium-es",
+      "filename": "sectium-es.exe",
+      "repoPath": "sections/b8g-es/dist/sectium-es.exe",
+      "target": "x86_64-windows-gnu",
+      "format": "pe64",
+      "repo": "awesome-os/sectium-es",
+      "url": "https://awesome-os.com/releases/rolling/sectium-es.exe",
+      "bytes": 96256,
+      "sha256": "0cecb57b19a4f52b54c55a5bc57d597b94622dbffe54e26684aab085e84bfaab"
+    },
+    {
+      "id": "sectium-es-linux-x64",
+      "component": "sectium-es",
+      "filename": "sectium-es",
+      "repoPath": "sections/b8g-es/dist/sectium-es",
+      "target": "x86_64-linux-musl",
+      "format": "elf64",
+      "repo": "awesome-os/sectium-es",
+      "url": "https://awesome-os.com/releases/rolling/sectium-es",
+      "bytes": 81640,
+      "sha256": "2a01789e64917cc3e61ecd8500992834cd1bd17d2b708c88a5852c45ee31f1bb"
+    },
+    {
+      "id": "sectium-jvm-win64",
+      "component": "sectium-jvm",
+      "filename": "sectium-jvm.exe",
+      "repoPath": "sections/b8g-jvm/dist/sectium-jvm.exe",
+      "target": "x86_64-windows-gnu",
+      "format": "pe64",
+      "repo": "awesome-os/sectium-jvm",
+      "url": "https://awesome-os.com/releases/rolling/sectium-jvm.exe",
+      "bytes": 85504,
+      "sha256": "3e79140f47c9028e1548a4fd775abece2a175b05f27d9234a898b526b69ebdd1"
+    },
+    {
+      "id": "sectium-jvm-linux-x64",
+      "component": "sectium-jvm",
+      "filename": "sectium-jvm",
+      "repoPath": "sections/b8g-jvm/dist/sectium-jvm",
+      "target": "x86_64-linux-musl",
+      "format": "elf64",
+      "repo": "awesome-os/sectium-jvm",
+      "url": "https://awesome-os.com/releases/rolling/sectium-jvm",
+      "bytes": 73800,
+      "sha256": "22f5d693963653f4c4a9d38515a8b53b84ad06376384396d39b729749688dbd1"
+    },
+    {
+      "id": "sectium-jvm-wasi",
+      "component": "sectium-jvm",
+      "filename": "sectium-jvm.wasm",
+      "repoPath": "sections/b8g-jvm/dist/sectium-jvm.wasm",
+      "target": "wasm32-wasi",
+      "format": "wasm32-wasi",
+      "repo": "awesome-os/sectium-jvm",
+      "url": "https://awesome-os.com/releases/rolling/sectium-jvm.wasm",
+      "bytes": 74355,
+      "sha256": "761002d39ac3f63b8f03399f43a634e13e58849f25d5835d0463cf310ce0dcc2"
+    },
+    {
+      "id": "sectium-cp-win64",
+      "component": "sectium-cloud-control-plane",
+      "filename": "sectium_cp.dll",
+      "repoPath": "sections/sectium-cloud-control-plane/dist/sectium_cp.dll",
+      "target": "x86_64-windows-gnu",
+      "format": "pe64-dll",
+      "repo": "awesome-os/awesome-os",
+      "url": "https://awesome-os.com/releases/rolling/sectium_cp.dll",
+      "bytes": 20480,
+      "sha256": "1090c8f45d9021e63cdb50c28996935c70434d7d3ae3a169a873431037264784"
+    },
+    {
+      "id": "sectium-cp-linux-x64",
+      "component": "sectium-cloud-control-plane",
+      "filename": "libsectium_cp.so",
+      "repoPath": "sections/sectium-cloud-control-plane/dist/libsectium_cp.so",
+      "target": "x86_64-linux-musl",
+      "format": "elf64-so",
+      "repo": "awesome-os/awesome-os",
+      "url": "https://awesome-os.com/releases/rolling/libsectium_cp.so",
+      "bytes": 5080,
+      "sha256": "ac493086199d7bac18a6cadc8a0b0a41f8e966f25fba17702f7490a92f578269"
+    },
+    {
+      "id": "sectium-cp-wasi",
+      "component": "sectium-cloud-control-plane",
+      "filename": "sectium_cp.wasm",
+      "repoPath": "sections/sectium-cloud-control-plane/dist/sectium_cp.wasm",
+      "target": "wasm32-wasi",
+      "format": "wasm32-wasi",
+      "repo": "awesome-os/awesome-os",
+      "url": "https://awesome-os.com/releases/rolling/sectium_cp.wasm",
+      "bytes": 5695,
+      "sha256": "5d37c0ad32653ffe9a221ff35b80f4962754487724239bc7be97a4c55d65a5f0"
+    }
+  ]
+}
