@@ -1,0 +1,60 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/sectium-distributions",
+  "targets": [
+    "win64"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/sectium-distributions/bun-neon-v8.exe",
+      "kind": "bin",
+      "version": "v0.4.0-components",
+      "target": "win64",
+      "sha512": "53e6ab595aa2954811cf885064dfbcd0314f70a7c4cd83c836bcae86e8fa80603e0f335c04b53f601ce0eaf1c5ee3aaeb561e863a38cfcac237a15c172c24b1a",
+      "size": 71168,
+      "executable": true,
+      "blob": "v11/files/53/53e6ab595aa2954811cf885064dfbcd0314f70a7c4cd83c836bcae86e8fa80603e0f335c04b53f601ce0eaf1c5ee3aaeb561e863a38cfcac237a15c172c24b1a-exec",
+      "url": "https://github.com/awesome-os/sectium-distributions/releases/download/v0.4.0-components/bun-neon-v8.exe",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/sectium-distributions/components-manifest.json",
+      "kind": "object",
+      "version": "v0.4.0-components",
+      "target": "any",
+      "sha512": "d4a331f20fcdeb076222fe8f173ab73899bf72ddf37e919666eab209e524831f0b361904900ce066cfd9a59b962b96bf5f65c49d9a7cf26093ef84538b0d404f",
+      "size": 1117,
+      "executable": false,
+      "blob": "v11/files/d4/d4a331f20fcdeb076222fe8f173ab73899bf72ddf37e919666eab209e524831f0b361904900ce066cfd9a59b962b96bf5f65c49d9a7cf26093ef84538b0d404f",
+      "url": "https://github.com/awesome-os/sectium-distributions/releases/download/v0.4.0-components/components-manifest.json",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/sectium-distributions/sectium-shell-win64.b8p",
+      "kind": "b8p",
+      "version": "v0.4.0-components",
+      "target": "win64",
+      "sha512": "8e8abb1a798a3b7fa3b10f0639c9d69355d8108c67abd2c32996c4f0336a56d6f39a321a4ed843a9a5c66c3bd8364de477b92907237aee82fcbfe5ac3008df9b",
+      "size": 23913227,
+      "executable": false,
+      "blob": "v11/files/8e/8e8abb1a798a3b7fa3b10f0639c9d69355d8108c67abd2c32996c4f0336a56d6f39a321a4ed843a9a5c66c3bd8364de477b92907237aee82fcbfe5ac3008df9b",
+      "url": "https://github.com/awesome-os/sectium-distributions/releases/download/v0.4.0-components/sectium-shell-win64.b8p",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/sectium-distributions/v8-shared-win64.b8p",
+      "kind": "b8p",
+      "version": "v0.4.0-components",
+      "target": "win64",
+      "sha512": "9aa568bb6e17a3a1453bf5d07c38f28b820501756e44f5f383b892dc5705223245b924b0cd9ada51df73e1682000210ae85cdeb791efb04f4bac900f18c8f338",
+      "size": 42821724,
+      "executable": false,
+      "blob": "v11/files/9a/9aa568bb6e17a3a1453bf5d07c38f28b820501756e44f5f383b892dc5705223245b924b0cd9ada51df73e1682000210ae85cdeb791efb04f4bac900f18c8f338",
+      "url": "https://github.com/awesome-os/sectium-distributions/releases/download/v0.4.0-components/v8-shared-win64.b8p",
+      "dependencies": []
+    }
+  ]
+}
